@@ -185,22 +185,22 @@ definidas na tabela seguinte.
 >   - Certifique-se de que você realmente está no diretório home de sua conta.
 >   - Não esqueça de verificar, após cada cópia, se a referida operação foi bem-sucedida!
 
-| Ação                                                                                                                        | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linha de comando executada&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| a) Copie **primeiro** para **diretorio01**                                                                                  |                                                                                                    |
-| b) Copie **programa1.c** para **diretorio01_1**, dando à cópia nome de **prg1.c**                                           |                                                                                                    |
-| c) Copie **a.c** para **diretorio02_2_1**                                                                                   |                                                                                                    |
-| d) Copie **sac** para o diretório atual, dando à cópia o nome **sac2**                                                      |                                                                                                    |
-| e) Copie **sac2** para **diretorio02**                                                                                      |                                                                                                    |
-| f) Copie **saida** para **diretorio01_1**                                                                                   |                                                                                                    |
-| g) Copie o arquivo **saida**, que está em **diretorio01_1**, para **diretorio02_2_3**, dando à cópia o nome de **saida2**   |                                                                                                    |
-| h) Copie **saida2** para o seu diretório home                                                                               |                                                                                                    |
-| i) Entre em **diretorio01_1** e copie o arquivo **saida**, contido nele, para **diretorio02_2**                             |                                                                                                    |
-| j) Ainda em **diretorio01_1**, copie o arquivo **saida** para **diretorio01**                                               |                                                                                                    |
-| k) Copie **diretorio02_2_2** para **diretorio01**                                                                           |                                                                                                    |
-| l) Copie **diretorio01_2** para **diretorio02_2**, dando à cópia o nome **diretorio02_2_4**                                 |                                                                                                    |
-| m) Copie todos os arquivos cujos nomes contenham apenas 1 caractere, existentes no seu diretório home, para **diretorio02** |                                                                                                    |
-| n) Copie todos os arquivos com extensão c, existentes no seu diretório home, para **diretorio01**                           |                                                                                                    |
+| Ação                                                                                                                        | Linha de comando executada |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| a) Copie **primeiro** para **diretorio01**                                                                                  |                            |
+| b) Copie **programa1.c** para **diretorio01_1**, dando à cópia nome de **prg1.c**                                           |                            |
+| c) Copie **a.c** para **diretorio02_2_1**                                                                                   |                            |
+| d) Copie **sac** para o diretório atual, dando à cópia o nome **sac2**                                                      |                            |
+| e) Copie **sac2** para **diretorio02**                                                                                      |                            |
+| f) Copie **saida** para **diretorio01_1**                                                                                   |                            |
+| g) Copie o arquivo **saida**, que está em **diretorio01_1**, para **diretorio02_2_3**, dando à cópia o nome de **saida2**   |                            |
+| h) Copie **saida2** para o seu diretório home                                                                               |                            |
+| i) Entre em **diretorio01_1** e copie o arquivo **saida**, contido nele, para **diretorio02_2**                             |                            |
+| j) Ainda em **diretorio01_1**, copie o arquivo **saida** para **diretorio01**                                               |                            |
+| k) Copie **diretorio02_2_2** para **diretorio01**                                                                           |                            |
+| l) Copie **diretorio01_2** para **diretorio02_2**, dando à cópia o nome **diretorio02_2_4**                                 |                            |
+| m) Copie todos os arquivos cujos nomes contenham apenas 1 caractere, existentes no seu diretório home, para **diretorio02** |                            |
+| n) Copie todos os arquivos com extensão c, existentes no seu diretório home, para **diretorio01**                           |                            |
 
 22. Construa um diagrama com o estado final da árvore de diretórios e arquivos obtidos após a execução dos comandos da questão anterior.
 
