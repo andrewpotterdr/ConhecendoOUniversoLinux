@@ -28,7 +28,7 @@ e) find / -name '*.c' > res_pesquisa
 a) echo saída
 b) echo bom dia
 c) echo 'bom dia'
-d) echo `ls`
+d) echo \`ls\`
 e) echo 'ls'
 f) echo $HOME
 g) numero=1 ; echo $numero
@@ -37,9 +37,9 @@ h) echo'texto1'>arquivo_saida1 ; cat arquivo_saida1
 6. O comando ***sort*** é usado para ordenar linhas de arquivos de texto. Para testar tal funcionalidade, crie um arquivo chamado ***arquivo_sort_entrada*** com as seguintes frases em cada linha:
 
 ```
->   O Linux é um bom sistema operacional
->   O KDE é uma interface gráfica amigável
->   o Fedora é uma distribuição Linux baseada no Red Hat
+O Linux é um bom sistema operacional
+O KDE é uma interface gráfica amigável
+o Fedora é uma distribuição Linux baseada no Red Hat
 ```
 
 Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:
