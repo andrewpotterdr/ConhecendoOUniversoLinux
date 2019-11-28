@@ -56,7 +56,7 @@ Um exemplo de repositório configurado nesse arquivo é mostrado na linha seguin
 
 17. Execute o comando ```ip address``` e observe as configurações da interface de rede **enp0s3**.
 
-> Alternativamente é possível executar o comando ```ip addr``` ou apenas ```ip a```.
+    > Alternativamente é possível executar o comando ```ip addr``` ou apenas ```ip a```.
 
 18. Para definir configurações de rede estáticas para uma interface de rede, edite o arquivo **/etc/network/interfaces** e realize as configurações seguintes para a interface **enp0s3**.
 
@@ -68,6 +68,6 @@ Um exemplo de repositório configurado nesse arquivo é mostrado na linha seguin
             gateway 192.168.0.254
     ```
 
-Salve o arquivo e saia do editor. Por fim, reinicie o serviço de rede com o comando ```service networking restart```
+    Salve o arquivo e saia do editor. Por fim, reinicie o serviço de rede com o comando ```service networking restart```
 
 19. Desligue o computador. Como root, execute o comando ```halt```.
