@@ -42,9 +42,9 @@ O KDE é uma interface gráfica amigável
 o Fedora é uma distribuição Linux baseada no Red Hat
 ```
 
-Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:
-a) Qual o resultado gerado em ***arquivo_sort_saida***?
-b) Qual o objetivo de usar o caractere < no comando em questão?
+Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:<br>
+a) Qual o resultado gerado em ***arquivo_sort_saida***?<br>
+b) Qual o objetivo de usar o caractere < no comando em questão?<br>
 c) Qual o objetivo de usar o caractere > no comando em questão?
 
 7. O que faz o comando grep?
@@ -62,30 +62,30 @@ c) Qual o objetivo de usar o caractere > no comando em questão?
         }
 ```
 
-Execute o comando ***grep*** para cada uma das situações seguintes:
-a) grep -n main programa.c
-b) grep -n include programa.c
-c) grep -c include programa.c
+Execute o comando ***grep*** para cada uma das situações seguintes:<br>
+a) grep -n main programa.c<br>
+b) grep -n include programa.c<br>
+c) grep -c include programa.c<br>
 d) grep main*
 
 9. Compare os comandos ***grep*** e ***find*** quanto à finalidade de cada um deles.
 
 10. Com um único comando mkdir, crie dentro do seu diretório home, os seguintes diretórios: ***temp/temp1/temp2***. Para tanto, execute ```mkdir -p /temp/temp1/temp2```
 
-11. O que fazem os comandos ***ls*** e ***wc***? Quais os resultados gerados pelo uso dos comandos ***ls*** e ***wc*** em cada uma das situações seguintes, dentro do seu diretório home?
-a) wc -l programa.c
-b) ls | wc -l
-c) ls | wc -c
+11. O que fazem os comandos ***ls*** e ***wc***? Quais os resultados gerados pelo uso dos comandos ***ls*** e ***wc*** em cada uma das situações seguintes, dentro do seu diretório home?<br>
+a) wc -l programa.c<br>
+b) ls | wc -l<br>
+c) ls | wc -c<br>
 d) ls | wc -w
 
 12. O que faz e qual a sintaxe de uso para o comando ***chmod***?
 
-13. Utilizando o comando ***chmod***, execute as ações solicitadas a seguir:
-a) No seu diretório home, crie um diretório chamado ***chmod_teste_dir***.
-b) Dentro do seu diretório home, crie um arquivo chamado ***chmod_teste_arq***.
-c) Altere as permissões de ***chmod_teste_arq*** para ***leitura***, ***escrita*** e ***execução*** apenas pelo dono do arquivo. Os demais usuários não deverão ter acesso ao arquivo.
-d) Faça uma cópia de ***chmod_teste_arq*** para o diretório de ***chmod_teste_dir***, dando ao novo arquivo o nome ***chmod_teste_arq_copia***.
-e) Com um único comando ***chmod***, altere as permissões do diretório ***chmod_teste_dir*** e todos os arquivos contidos nele para 742. O que significa esse conjunto de permissões em termos de acesso?
+13. Utilizando o comando ***chmod***, execute as ações solicitadas a seguir:<br>
+a) No seu diretório home, crie um diretório chamado ***chmod_teste_dir***.<br>
+b) Dentro do seu diretório home, crie um arquivo chamado ***chmod_teste_arq***.<br>
+c) Altere as permissões de ***chmod_teste_arq*** para ***leitura***, ***escrita*** e ***execução*** apenas pelo dono do arquivo. Os demais usuários não deverão ter acesso ao arquivo.<br>
+d) Faça uma cópia de ***chmod_teste_arq*** para o diretório de ***chmod_teste_dir***, dando ao novo arquivo o nome ***chmod_teste_arq_copia***.<br>
+e) Com um único comando ***chmod***, altere as permissões do diretório ***chmod_teste_dir*** e todos os arquivos contidos nele para 742. O que significa esse conjunto de permissões em termos de acesso?<br>
 f) Dentro do seu diretório home, crie um arquivo chamado ***chmod_teste_arq_novo***. Com um único comando ***chmod*** retire a permissão de ***escrita*** para todos os usuários, inclusive o dono.
 
 > Sugestão:
@@ -102,4 +102,4 @@ chown suporte teste_donoegrupo.txt
 chgrp suporte teste_donoegrpo.txt
 ```
 
-Alternativamente, você pode executar apenas ```chown suporte:suporte teste_donoegrupo.txt
+Alternativamente, você pode executar apenas ```chown suporte:suporte teste_donoegrupo.txt```
