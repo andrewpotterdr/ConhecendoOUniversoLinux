@@ -5,5 +5,7 @@ Material Minicurso Conhecendo o Universo Linux
 Elionildo da Silva Menezes - elionildo@ifpb.edu.br
 
 - Linux Debian
-	- Nível Básico
-  	- [Utilização de comandos](listas_de_exercícios/utilização_de_comandos_nível_básico.md)
+	- Listas de Exercícios
+		- [Nível Básico](listas_de_exercícios/utilização_de_comandos_nível_básico.md)
+		- [Nível Intermediário](listas_de_exercícios/utilização_de_comandos_nível_intermediário.md)
+		- [Nível Avançado](listas_de_exercícios/utilização_de_comandos_nível_avançado.md)
