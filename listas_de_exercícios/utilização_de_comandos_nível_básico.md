@@ -14,56 +14,65 @@
 ---
 
 1. Inicie o sistema operacional Linux Debian.
+
 2. Acesse o sistema, utilizando os parâmetros de logon e senha definidos para o administrador (root) do
 sistema.
+
 3. Observe o prompt de comando que aparece na tela. Identifique as informações mostradas nele. Essa é a
 interface da Shell do Linux.
 
-  - O prompt para a conta do usuário **root**, isto é, o administrador do sistema, termina com o caractere #.
+    - O prompt para a conta do usuário **root**, isto é, o administrador do sistema, termina com o caractere #.
 
-  ```
-  [root@pcdebian:~]#_
-  ```
+    ```
+    [root@pcdebian:~]#_
+    ```
 
-  - O prompt para qualquer conta de usuário comum, isto é, sem poderes administrativos, termina com o caractere $.
+    - O prompt para qualquer conta de usuário comum, isto é, sem poderes administrativos, termina com o caractere $.
 
-  ```
-  [usuario@pcdebian:~]$_
-  ```
+    ```
+    [usuario@pcdebian:~]$_
+    ```
 
-4. É possível obter uma descrição sobre cada comando do Linux. Para tanto, basta conhecer o nome do comando e, no terminal Shell, executar `man nome-do-comando`. Utilizando o **man**, responda qual a funcionalidade do comando **man**. Para sair da exibição do resultado do comando **man**, pressione a tecla **q**
+4. É possível obter uma descrição sobre cada comando do Linux. Para tanto, basta conhecer o nome do comando e, no terminal Shell, executar `man nome-do-comando`. Utilizando o **man**, responda qual a funcionalidade do comando **man**. Para sair da exibição do resultado do comando **man**, pressione a tecla **q**.
+
 5. Execute o comando **pwd** e responda qual é o seu diretório atual.
 
-> Observações:
->  - O diretório / é conhecido como diretório-raiz do sistema.
->  - O diretório de trabalho ou diretório home da conta do usuário root é o `/root`.
->  - O diretório de trabalho ou diretório home da conta de um usuário comum é normalmente o `/home/conta-do-usuário`.
+    > Observações:
+    >  - O diretório / é conhecido como diretório-raiz do sistema.
+    >  - O diretório de trabalho ou diretório home da conta do usuário root é o `/root`.
+    >  - O diretório de trabalho ou diretório home da conta de um usuário comum é normalmente o `/home/conta-do-usuário`.
 
-6. Crie os arquivos a seguir usando o comando **touch**. Execute `touch arq1 arq2 arq3`
+6. Crie os arquivos a seguir usando o comando **touch**. Execute `touch arq1 arq2 arq3`.
+
 7. Execute o comando **ls** e veja o conteúdo do diretório atual.
-8. Execute o **man** para o comando **ls** e verifique as suas várias opções. Algumas opções bastante utilizadas são **-a**, **-l**, **-R**
+
+8. Execute o **man** para o comando **ls** e verifique as suas várias opções. Algumas opções bastante utilizadas são **-a**, **-l**, **-R**.
+
 9. Execute o comando **dir**. Que resultado você obteve? Compare o resultado com aquele obtido na questão 7.
+
 10. Execute o comando **date** e responda qual a data e hora do sistema.
-11. Execute o comando **clear** para limpar a tela do seu terminal. Alternativamente, você poderá pressionar
+
+11. Execute o comando **clear** para limpar a tela do seu terminal. Alternativamente, você poderá pressionar.
+
 12. Para visualizar o conteúdo de um arquivo, pode-se utilizar os comandos **cat** ou **more**. A sintaxe geral de cada um deles é `cat nome-do-arquivo` e `more nome-do-arquivo`.
 as teclas <kbd>CTRL</kbd>+<kbd>L</kbd> para conseguir o mesmo efeito obtido com **clear**.
 
-> Observações:
->   - Ao usar o comando **cat**, caso o arquivo tenha mais linhas que a quantidade suportada pela tela do computador, serão mostradas apenas as últimas linhasque ocuparem o vídeo.
->   - Ao usar o comando **more**, caso o arquivo tenha mais linhas que a quantidade suportada pelo vídeo do computador, ele será mostrado de forma pausada, isto é, uma página correspondente ao número de linhas do vídeo de cada vez. Para avançar para a próxima página do arquivo, basta que o usuário pressione a tecla <kbd>&nbsp;space&nbsp;</kbd>. Já para avançar para a próxima linha do arquivo, basta que o usuário pressione a tecla <kbd>Enter</kbd>. Para sair da listagem do more, pressione a tecla <kbd>q</kbd>
+    > Observações:
+    >   - Ao usar o comando **cat**, caso o arquivo tenha mais linhas que a quantidade suportada pela tela do computador, serão mostradas apenas as últimas linhasque ocuparem o vídeo.
+    >   - Ao usar o comando **more**, caso o arquivo tenha mais linhas que a quantidade suportada pelo vídeo do computador, ele será mostrado de forma pausada, isto é, uma página correspondente ao número de linhas do vídeo de cada vez. Para avançar para a próxima página do arquivo, basta que o usuário pressione a tecla <kbd>&nbsp;space&nbsp;</kbd>. Já para avançar para a próxima linha do arquivo, basta que o usuário pressione a tecla <kbd>Enter</kbd>. Para sair da listagem do more, pressione a tecla <kbd>q</kbd>
 
-Utilize os dois comandos para ver o conteúdo do arquivo `/etc/passwd`. Compare os resultados obtidos.
+    Utilize os dois comandos para ver o conteúdo do arquivo `/etc/passwd`. Compare os resultados obtidos.
 
 13. O comando **cat** pode ser utilizado também para criar arquivos com pouca quantidade de linhas. Para tanto, basta executar `cat > nome-do-arquivo`, pressionar a tecla <kbd>Enter</kbd>, digitar o texto desejado, pressionar <kbd>Enter</kbd> e, por fim, pressionar as teclas <kbd>CTRL</kbd>+<kbd>d</kbd> para salvar o conteúdo no arquivo.
 
-> Observação:
->  - Caso você digite `cat > nome-do-arquivo` e o arquivo exista, o seu conteúdo será sobrescrito integralmente. 
+    > Observação:
+    >  - Caso você digite `cat > nome-do-arquivo` e o arquivo exista, o seu conteúdo será sobrescrito integralmente. 
 
-Certifique-se de que você está no diretório home de sua conta de usuário, no caso `/root`. Em seguida, utilize o comando **cat** para criar um arquivo denominado `primeiro`, cujo conteúdo seja: 
+    Certifique-se de que você está no diretório home de sua conta de usuário, no caso `/root`. Em seguida, utilize o comando **cat** para criar um arquivo denominado `primeiro`, cujo conteúdo seja: 
 
-```
-meu primeiro texto no Linux.ls
-```
+    ```
+    meu primeiro texto no Linux.ls
+    ```
 
 14. Ainda no seu diretório home, utilize o comando **cat** ou o comando **touch** para criar os arquivos solicitados a seguir, cujos conteúdos deverão ser idênticos aos nomes dos arquivos correspondentes.
 
@@ -106,17 +115,17 @@ meu primeiro texto no Linux.ls
 
 17. Para alterar o diretório atual, deve-se executar o comando **cd**, cuja sintaxe geral é `cd caminho-do-novo-diretório`. O parâmetro `caminho-do-novo-diretório` pode ser:
 
-  - Um nome de caminho relativo, isto é, aquele que depende do diretório atual. Dois componentes que podem aparecer em um nome de caminho relativo merecem destaque: o ponto `.` e o ponto-ponto `..`. O ponto indica o diretório atual e o ponto-ponto indica o diretório que está exatamente um nível acima do diretório atual. O nome de caminho relativo inicia sempre com ponto ou ponto-ponto.
-  - Um nome de caminho absoluto, isto é, aquele que independe do diretório atual e sempre inicia com o caractere <kbd>/</kbd>, isto é, a partir do diretório-raiz do sistema.
+    - Um nome de caminho relativo, isto é, aquele que depende do diretório atual. Dois componentes que podem aparecer em um nome de caminho relativo merecem destaque: o ponto `.` e o ponto-ponto `..`. O ponto indica o diretório atual e o ponto-ponto indica o diretório que está exatamente um nível acima do diretório atual. O nome de caminho relativo inicia sempre com ponto ou ponto-ponto.
+    - Um nome de caminho absoluto, isto é, aquele que independe do diretório atual e sempre inicia com o caractere <kbd>/</kbd>, isto é, a partir do diretório-raiz do sistema.
 
-> Observações:
->   - Caso o usuário deseje retornar ao seu diretório home, independente de qual seja o seu diretório atual, basta executar `cd` ou `cd ~`
->   - Caso o usuário deseje retornar ao diretório onde ele estava antes de mudar para o diretório atual, deve executar `cd -`
+    > Observações:
+    >   - Caso o usuário deseje retornar ao seu diretório home, independente de qual seja o seu diretório atual, basta executar `cd` ou `cd ~`
+    >   - Caso o usuário deseje retornar ao diretório onde ele estava antes de mudar para o diretório atual, deve executar `cd -`
 
-Utilize o comando **cd** para alterar o diretório atual de acordo com os diretórios seguintes. Não esqueça de verificar a cada mudança de diretório, se realmente o comando produziu o efeito esperado.
+    Utilize o comando **cd** para alterar o diretório atual de acordo com os diretórios seguintes. Não esqueça de verificar a cada mudança de diretório, se realmente o comando produziu o efeito esperado.
 
-> Observações:
->   - Note, a seguir, que podem existir várias alternativas que produzem o mesmo resultado. Cada uma delas está em uma única linha
+    > Observações:
+    >   - Note, a seguir, que podem existir várias alternativas que produzem o mesmo resultado. Cada uma delas está em uma única linha
 
 | Diretório de destino | Linha de comando executada                                                                                                           |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------|
@@ -133,24 +142,24 @@ Utilize o comando **cd** para alterar o diretório atual de acordo com os diret�
 
 19. Dentro do seu diretório home, crie a estrutura de diretórios seguinte:
 
-```
-diretório home do usuário
-  ├── diretorio01
-  │   ├── diretorio01_1
-  │   └── diretorio01_2
-  └── diretorio02
-      ├── diretorio02_1
-      └── diretorio02_2
-          ├── diretorio02_2_1
-          ├── diretorio02_2_2
-          └── diretorio02_2_3
-```
+    ```
+    diretório home do usuário
+      ├── diretorio01
+      │   ├── diretorio01_1
+      │   └── diretorio01_2
+      └── diretorio02
+          ├── diretorio02_1
+          └── diretorio02_2
+              ├── diretorio02_2_1
+              ├── diretorio02_2_2
+              └── diretorio02_2_3
+    ```
 
 20. Com base na estrutura de diretórios criada na questão anterior, e partindo inicialmente do seu diretório home, execute as ações seguintes:
 
-> Observações:
->   - Tente usar, quando possível, tanto referências de caminho absoluto como de caminho relativo.
->   - Para não ter que digitar o nome inteiro de cada diretório, utilize o recurso de autocompletar do BASH, pressionando a tecla <kbd>TAB</kbd>.
+    > Observações:
+    >   - Tente usar, quando possível, tanto referências de caminho absoluto como de caminho relativo.
+    >   - Para não ter que digitar o nome inteiro de cada diretório, utilize o recurso de autocompletar do BASH, pressionando a tecla <kbd>TAB</kbd>.
 
 | Ação                                                          | Linha de comando executada |
 |---------------------------------------------------------------|----------------------------|
@@ -171,19 +180,18 @@ diretório home do usuário
 21. O comando **cp** é utilizado para copiar arquivos ou diretórios. Sua sintaxe geral é exibida a seguir:
 `cp opções origem destino`
 
-> Observações:
->   - As opções permitem desde a cópia de arquivos até a cópia de diretórios inteiros.
->   - Origem - Corresponde ao nome de arquivo ou diretório que será copiado. Eventualmente, pode
-ser necessário indicar o caminho absoluto ou relativo até a **origem** desejada.
->   - Destino - Corresponde ao nome de arquivo no diretório de destino. Se os nomes de origem e destino forem os mesmos, o nome de destino poderá ser omitido. Eventualmente, pode ser necessário indicar o caminho absoluto ou relativo até o **destino** desejado.
->   - Podem ser usados metacaracteres na composição do (s) nome (s) de arquivo (s) ou diretório (s) de origem e de destino da cópia.
+    > Observações:
+    >   - As opções permitem desde a cópia de arquivos até a cópia de diretórios inteiros.
+    >   - Origem - Corresponde ao nome de arquivo ou diretório que será copiado. Eventualmente, pode
+    ser necessário indicar o caminho absoluto ou relativo até a **origem** desejada.
+    >   - Destino - Corresponde ao nome de arquivo no diretório de destino. Se os nomes de origem e destino forem os mesmos, o nome de destino poderá ser omitido. Eventualmente, pode ser necessário indicar o caminho absoluto ou relativo até o **destino** desejado.
+    >   - Podem ser usados metacaracteres na composição do (s) nome (s) de arquivo (s) ou diretório (s) de origem e de destino da cópia.
 
-Utilize o comando **cp** para copiar os arquivos criados nas questões 13 e 14, segundo as orientações
-definidas na tabela seguinte.
+    Utilize o comando **cp** para copiar os arquivos criados nas questões 13 e 14, segundo as orientações definidas na tabela seguinte.
 
-> Observações:
->   - Certifique-se de que você realmente está no diretório home de sua conta.
->   - Não esqueça de verificar, após cada cópia, se a referida operação foi bem-sucedida!
+    > Observações:
+    >   - Certifique-se de que você realmente está no diretório home de sua conta.
+    >   - Não esqueça de verificar, após cada cópia, se a referida operação foi bem-sucedida!
 
 | Ação                                                                                                                        | Linha de comando executada |
 |-----------------------------------------------------------------------------------------------------------------------------|----------------------------|
@@ -206,21 +214,21 @@ definidas na tabela seguinte.
 
 23. O comando **mv** é utilizado para mover ou renomear arquivos. Sua sintaxe geral é exibida a seguir:
 
-```
-mv origem destino
-```
+    ```
+    mv origem destino
+    ```
 
-> Observações:
->   - É possível também mover diretórios.
->   - Origem - Corresponde ao nome de arquivo ou diretório que será movido ou renomeado. Eventualmente, pode ser necessário indicar o caminho absoluto ou relativo até a **origem** desejada.
->   - Destino - Corresponde ao novo nome que será dado ao arquivo ou diretório no destino. Eventualmente, pode ser necessário indicar o caminho absoluto ou relativo até o **destino** desejado.
->   - Podem ser usados metacaracteres na composição do (s) nome (s) de arquivo (s) ou diretório (s) de origem e de destino da cópia.
+    > Observações:
+    >   - É possível também mover diretórios.
+    >   - Origem - Corresponde ao nome de arquivo ou diretório que será movido ou renomeado. Eventualmente, pode ser necessário indicar o caminho absoluto ou relativo até a **origem** desejada.
+    >   - Destino - Corresponde ao novo nome que será dado ao arquivo ou diretório no destino. Eventualmente, pode ser necessário indicar o caminho absoluto ou relativo até o **destino** desejado.
+    >   - Podem ser usados metacaracteres na composição do (s) nome (s) de arquivo (s) ou diretório (s) de origem e de destino da cópia.
 
-Utilize o comando mv para mover ou renomear os arquivos criados nas questões 13 e 14, segundo as orientações definidas na tabela seguinte.
+    Utilize o comando mv para mover ou renomear os arquivos criados nas questões 13 e 14, segundo as orientações definidas na tabela seguinte.
 
-> Observações:
->   - Certifique-se de que você realmente está no diretório home de sua conta.
->   - Não esqueça de verificar, após cada cópia, se a referida operação foi bem-sucedida!
+    > Observações:
+    >   - Certifique-se de que você realmente está no diretório home de sua conta.
+    >   - Não esqueça de verificar, após cada cópia, se a referida operação foi bem-sucedida!
 
 | Ação                                                                                                                                                                                 | Linha de comando executada |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
@@ -235,13 +243,13 @@ Utilize o comando mv para mover ou renomear os arquivos criados nas questões 13
 
 24. Além das funcionalidades já mencionadas, o comando **cat** permite:
 
-  - Acrescentar texto ao final de um arquivo já existente. Para tanto, basta executar `cat >> nome-do-arquivo`, digitar o novo texto, pressionar <kbd>Enter</kbd> para inserir uma linha em branco e pressionar <kbd>CTRL</kbd>+<kbd>D</kbd>.
-  - Concatenar, isto é, unir os conteúdos de vários arquivos. Para tanto, basta executar o comando `cat nome-do-arquivo-entrada-1 nome-do-arquivo-entrada-N > nome-do-arquivo-de-saida`
-Utilize o comando **cat** para realizar as operações solicitadas na tabela a seguir:
+    - Acrescentar texto ao final de um arquivo já existente. Para tanto, basta executar `cat >> nome-do-arquivo`, digitar o novo texto, pressionar <kbd>Enter</kbd> para inserir uma linha em branco e pressionar <kbd>CTRL</kbd>+<kbd>D</kbd>.
+    - Concatenar, isto é, unir os conteúdos de vários arquivos. Para tanto, basta executar o comando `cat nome-do-arquivo-entrada-1 nome-do-arquivo-entrada-N > nome-do-arquivo-de-saida`
+    Utilize o comando **cat** para realizar as operações solicitadas na tabela a seguir:
 
-> Observações:
->   - Certifique-se de que você realmente está no diretório home de sua conta.
->   - Não esqueça de verificar, após cada operação, se a mesma foi bem-sucedida!
+    > Observações:
+    >   - Certifique-se de que você realmente está no diretório home de sua conta.
+    >   - Não esqueça de verificar, após cada operação, se a mesma foi bem-sucedida!
 
 | Ação                                                                                                                                                     | Linha de comando executada |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
@@ -252,17 +260,16 @@ Utilize o comando **cat** para realizar as operações solicitadas na tabela a s
 
 25. O comando **rm** é utilizado para remover arquivos ou diretórios. Sua sintaxe geral é `rm opções nome(s)-do(s)-arquivo(s)-ou-diretório(s)`
 
->Observações:
->   - Podem ser usados metacaracteres na composição do(s) nome(s) de arquivo(s) ou diretório(s) a ser(em) removido(s).
->   - Quando usado sem opções, o comando **rm** permite apenas a remoção de arquivos. Além disso, ele solicitará uma confirmação do usuário para cada arquivo a ser removido. Para evitar tal confirmação, você poderá usar a opção **-f**, que serve para executar a remoção de forma forçada.
->   - Para remover diretórios, estejam eles vazios ou não, você poderá usar a opção **-r**, que serve para executar a remoção de forma recursiva, isto é, removendo do(s) diretório(s) mais interno(s) ao diretório que será removido até ao próprio. Caso utilize `rm -rf nome-do-diretório`, o diretório e seu conteúdo serão removidos sem solicitar qualquer confirmação do usuário.
+    > Observações:
+    >   - Podem ser usados metacaracteres na composição do(s) nome(s) de arquivo(s) ou diretório(s) a ser(em) removido(s).
+    >   - Quando usado sem opções, o comando **rm** permite apenas a remoção de arquivos. Além disso, ele solicitará uma confirmação do usuário para cada arquivo a ser removido. Para evitar tal confirmação, você poderá usar a opção **-f**, que serve para executar a remoção de forma forçada.
+    >   - Para remover diretórios, estejam eles vazios ou não, você poderá usar a opção **-r**, que serve para executar a remoção de forma recursiva, isto é, removendo do(s) diretório(s) mais interno(s) ao diretório que será removido até ao próprio. Caso utilize `rm -rf nome-do-diretório`, o diretório e seu conteúdo serão removidos sem solicitar qualquer confirmação do usuário.
 
-Utilize o comando **rm**, com as opções que julgar convenientes, para executar as ações solicitadas na
-tabela seguinte:
+    Utilize o comando **rm**, com as opções que julgar convenientes, para executar as ações solicitadas na tabela seguinte:
 
-> Observações:
->   - Certifique-se de que você realmente está no diretório home de sua conta.
->   - Não esqueça de verificar, após cada remoção, se a referida operação foi bem-sucedida!
+    > Observações:
+    >   - Certifique-se de que você realmente está no diretório home de sua conta.
+    >   - Não esqueça de verificar, após cada remoção, se a referida operação foi bem-sucedida!
 
 | Ação                                                        | Linha de comando executada |
 |-------------------------------------------------------------|----------------------------|
@@ -274,9 +281,9 @@ tabela seguinte:
 26. O comando **rmdir** é utilizado especificamente para remover diretórios. Entretanto, nesse caso, os diretórios a serem removidos deverão estar vazios, ou seja, não deverão conter arquivos ou outros diretórios no seu interior.
 Utilize o comando **rmdir** para executar as ações solicitadas na tabela seguinte:
 
-> Observações:
->   - Certifique-se de que você realmente está no diretório home de sua conta.
->   - Não esqueça de verificar, após cada remoção, se a referida operação foi bem-sucedida!
+    > Observações:
+    >   - Certifique-se de que você realmente está no diretório home de sua conta.
+    >   - Não esqueça de verificar, após cada remoção, se a referida operação foi bem-sucedida!
 
 | Ação                          | Linha de comando executada |
 |-------------------------------|----------------------------|
