@@ -17,23 +17,21 @@
 
 3. No seu diretório home, no caso ```/root```, crie 3 arquivos vazios - ***trabalho1.c***, ***trabalho2.c***, ***trabalho3.c*** - e mais 3 arquivos, também vazios - ***core***, ***core1*** e ***core2***. Você pode executar a linha de comando ```touch trabalho{1..3}.c``` para criar os três arquivos ou ```touch trabalho1.c trabalho2.c trabalho3.c```.
 
-4. Descreva os resultados obtidos com a execução do comando ***find*** (utilizado para localizar arquivos/diretórios) nas situações seguintes, considerando os arquivos criados na questão 3:
-
+4. Descreva os resultados obtidos com a execução do comando ***find*** (utilizado para localizar arquivos/diretórios) nas situações seguintes, considerando os arquivos criados na questão 3:<br>
 a) find /root -name trabalho1.c<br>
 b) find . -name '*.c' -ls<br>
 c) find / -name '*.c' -print<br>
 d) find /root -name 'core*'<br>
-e) find / -name '*.c' > res_pesquisa<br>
+e) find / -name '*.c' > res_pesquisa
 
-5. O comando ***echo*** é usado para exibir uma mensagem, conteúdo de uma variável ou mesmo o resultado da execução de um comando. No prompt de comando, execute o comando ***echo*** de acordo com cada uma das situações seguintes, anotando o resultado em cada caso:
-
-a) echo saída
-b) echo bom dia
-c) echo 'bom dia'
-d) echo \`ls\`
-e) echo 'ls'
-f) echo $HOME
-g) numero=1 ; echo $numero
+5. O comando ***echo*** é usado para exibir uma mensagem, conteúdo de uma variável ou mesmo o resultado da execução de um comando. No prompt de comando, execute o comando ***echo*** de acordo com cada uma das situações seguintes, anotando o resultado em cada caso:<br>
+a) echo saída<br>
+b) echo bom dia<br>
+c) echo 'bom dia'<br>
+d) echo \`ls\`<br>
+e) echo 'ls'<br>
+f) echo $HOME<br>
+g) numero=1 ; echo $numero<br>
 h) echo'texto1'>arquivo_saida1 ; cat arquivo_saida1
 
 6. O comando ***sort*** é usado para ordenar linhas de arquivos de texto. Para testar tal funcionalidade, crie um arquivo chamado ***arquivo_sort_entrada*** com as seguintes frases em cada linha:
