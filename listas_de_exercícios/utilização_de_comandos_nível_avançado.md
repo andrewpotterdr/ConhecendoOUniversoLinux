@@ -41,14 +41,14 @@ Um exemplo de repositório configurado nesse arquivo é mostrado na linha seguin
 
 14. Crie o arquivo ***meu_programa.c*** com o conteúdo seguinte:
 
-```
-    #include <stdio.h>
+    ```
+        #include <stdio.h>
 
-    int main()
-    {
-        printf("Meu programa em C);
-    }
-```
+        int main()
+        {
+            printf("Meu programa em C);
+        }
+    ```
 
 15. Compile ***meu_programa.c***. Para tanto, execute ```gcc meu_programa.c -o meu_programa```.
 
@@ -60,13 +60,13 @@ Um exemplo de repositório configurado nesse arquivo é mostrado na linha seguin
 
 18. Para definir configurações de rede estáticas para uma interface de rede, edite o arquivo ***/etc/network/interfaces*** e realize as configurações seguintes para a interface ***enp0s3***.
 
-```
-    allow-hotplug enp0s3
-    iface enp0s3 inet static
-        address 192.168.0.1
-        netmask 255.255.255.0
-        gateway 192.168.0.254
-```
+    ```
+        allow-hotplug enp0s3
+        iface enp0s3 inet static
+            address 192.168.0.1
+            netmask 255.255.255.0
+            gateway 192.168.0.254
+    ```
 
 Salve o arquivo e saia do editor. Por fim, reinicie o serviço de rede com o comando ```service networking restart```
 
