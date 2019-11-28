@@ -36,37 +36,37 @@ h) echo'texto1'>arquivo_saida1 ; cat arquivo_saida1
 
 6. O comando **sort** é usado para ordenar linhas de arquivos de texto. Para testar tal funcionalidade, crie um arquivo chamado **arquivo_sort_entrada** com as seguintes frases em cada linha:
 
-```
-O Linux é um bom sistema operacional
-O KDE é uma interface gráfica amigável
-o Fedora é uma distribuição Linux baseada no Red Hat
-```
+    ```
+    O Linux é um bom sistema operacional
+    O KDE é uma interface gráfica amigável
+    o Fedora é uma distribuição Linux baseada no Red Hat
+    ```
 
-Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:<br>
-a) Qual o resultado gerado em **arquivo_sort_saida**?<br>
-b) Qual o objetivo de usar o caractere < no comando em questão?<br>
-c) Qual o objetivo de usar o caractere > no comando em questão?
+    Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:<br>
+    a) Qual o resultado gerado em **arquivo_sort_saida**?<br>
+    b) Qual o objetivo de usar o caractere < no comando em questão?<br>
+    c) Qual o objetivo de usar o caractere > no comando em questão?
 
 7. O que faz o comando grep?
 
 8. Crie um programa em linguagem C conforme modelo no quadro a seguir e salve-o em um arquivo denominado **programa.c**. Para tanto, execute o editor nano seguido pelo nome do arquivo que será criado.
 
-```
-    #include <stdio.h>
-    #include <conio.h>
-    int main( void)
-        {
-            printf( "Isto é um teste\n" );
-            getch();
-            return 0;
-        }
-```
+    ```
+        #include <stdio.h>
+        #include <conio.h>
+        int main( void)
+            {
+                printf( "Isto é um teste\n" );
+                getch();
+                return 0;
+            }
+    ```
 
-Execute o comando **grep** para cada uma das situações seguintes:<br>
-a) grep -n main programa.c<br>
-b) grep -n include programa.c<br>
-c) grep -c include programa.c<br>
-d) grep main*
+    Execute o comando **grep** para cada uma das situações seguintes:<br>
+    a) grep -n main programa.c<br>
+    b) grep -n include programa.c<br>
+    c) grep -c include programa.c<br>
+    d) grep main*
 
 9. Compare os comandos **grep** e **find** quanto à finalidade de cada um deles.
 
@@ -88,8 +88,8 @@ d) Faça uma cópia de **chmod_teste_arq** para o diretório de **chmod_teste_di
 e) Com um único comando **chmod**, altere as permissões do diretório **chmod_teste_dir** e todos os arquivos contidos nele para 742. O que significa esse conjunto de permissões em termos de acesso?<br>
 f) Dentro do seu diretório home, crie um arquivo chamado **chmod_teste_arq_novo**. Com um único comando **chmod** retire a permissão de **escrita** para todos os usuários, inclusive o dono.
 
-> Sugestão:
->   - Use a opção **a**
+    > Sugestão:
+    >   - Use a opção **a**
 
 14. O que faz e qual a sintaxe de uso para o comando **chown**?
 
@@ -97,9 +97,9 @@ f) Dentro do seu diretório home, crie um arquivo chamado **chmod_teste_arq_novo
 
 16. Crie um arquivo chamado **teste_donoegrupo.txt** e verifique os atributos desse arquivo. Observe que o dono e o grupo do arquivo é root. Usando os comandos das questões 14 e 15, altere o dono e o grupo do arquivo para **suporte**. Para tanto, execute:
 
-```
-chown suporte teste_donoegrupo.txt
-chgrp suporte teste_donoegrpo.txt
-```
+    ```
+    chown suporte teste_donoegrupo.txt
+    chgrp suporte teste_donoegrpo.txt
+    ```
 
-Alternativamente, você pode executar apenas ```chown suporte:suporte teste_donoegrupo.txt```
+    Alternativamente, você pode executar apenas ```chown suporte:suporte teste_donoegrupo.txt```
