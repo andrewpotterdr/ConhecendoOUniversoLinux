@@ -20,9 +20,13 @@
 4. Descreva os resultados obtidos com a execução do comando ***find*** (utilizado para localizar arquivos/diretórios) nas situações seguintes, considerando os arquivos criados na questão 3:
 
 a) find /root -name trabalho1.c
+
 b) find . -name '*.c' -ls
+
 c) find / -name '*.c' -print
+
 d) find /root -name 'core*'
+
 e) find / -name '*.c' > res_pesquisa
 
 5. O comando ***echo*** é usado para exibir uma mensagem, conteúdo de uma variável ou mesmo o resultado da execução de um comando. No prompt de comando, execute o comando ***echo*** de acordo com cada uma das situações seguintes, anotando o resultado em cada caso:
