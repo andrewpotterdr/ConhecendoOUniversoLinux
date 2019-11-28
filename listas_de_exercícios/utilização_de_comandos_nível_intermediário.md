@@ -42,10 +42,10 @@ O KDE é uma interface gráfica amigável
 o Fedora é uma distribuição Linux baseada no Red Hat
 ```
 
-Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:<br>
-a) Qual o resultado gerado em ***arquivo_sort_saida***?<br>
-b) Qual o objetivo de usar o caractere < no comando em questão?<br>
-c) Qual o objetivo de usar o caractere > no comando em questão?
+    Execute o comando ```sort < arquivo_sort_entrada > arquivo_sort_saida``` e responda:<br>
+    a) Qual o resultado gerado em ***arquivo_sort_saida***?<br>
+    b) Qual o objetivo de usar o caractere < no comando em questão?<br>
+    c) Qual o objetivo de usar o caractere > no comando em questão?
 
 7. O que faz o comando grep?
 
@@ -62,11 +62,11 @@ c) Qual o objetivo de usar o caractere > no comando em questão?
         }
 ```
 
-Execute o comando ***grep*** para cada uma das situações seguintes:<br>
-a) grep -n main programa.c<br>
-b) grep -n include programa.c<br>
-c) grep -c include programa.c<br>
-d) grep main*
+    Execute o comando ***grep*** para cada uma das situações seguintes:<br>
+    a) grep -n main programa.c<br>
+    b) grep -n include programa.c<br>
+    c) grep -c include programa.c<br>
+    d) grep main*
 
 9. Compare os comandos ***grep*** e ***find*** quanto à finalidade de cada um deles.
 
